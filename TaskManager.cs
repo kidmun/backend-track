@@ -149,6 +149,7 @@ public class Program
 |                                         |
 ------------------------------------------
 ");
+
         int numberOfTasks;
         do
         {
@@ -158,6 +159,7 @@ public class Program
 
 
         TaskManager taskManager = new TaskManager();
+          taskManager.LoadTasksFromFileAsync("check.csv");
         for (int i = 0; i < numberOfTasks; i++)
         {
             string taskName, descriptionOfTask;
@@ -202,9 +204,9 @@ public class Program
         Console.WriteLine("\nPersonal Tasks:");
          taskManager.ViewTasks();
         taskManager.ViewTasksByCategory(TaskCategory.Personal);  
-        taskManager.SaveTasksToFileAsync("tasks.txt");
+        taskManager.SaveTasksToFileAsync("check.csv");
 
-        taskManager.LoadTasksFromFileAsync("tasks.txt");
+      
 
 
 
