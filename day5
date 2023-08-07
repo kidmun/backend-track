@@ -1,0 +1,19 @@
+Exercise #1
+  
+select firstName, lastName,city, state from Person left join Address on Person.personId = Address.personId;
+
+#2
+select name, population, area from World where area >= 3000000 or population >= 25000000;
+#3
+select email as "Email" from Person group by email having count(*) > 1;
+#4
+select name as "Customers" from Customers left join Orders on Customers.id = Orders.customerId where Orders.id is null;
+#5
+select first.name as "Employee" from Employee as first, Employee as second where first.managerId = second.id and first.salary > second.salary;
+#6
+select distinct a.num as ConsecutiveNums from Logs as a, Logs as b, Logs as c where a.num = b.num and 
+b.num = c.num and b.id = a.id + 1 and c.id = b.id + 1;
+#7
+select Department.name as Department, Employee.name as Employee, Employee.salary as Salary from Employee inner join Department on 
+Employee.departmentId = Department.id where (departmentId, salary) in (select departmentId, Max(salary) from Employee group by
+departmentId) ;
