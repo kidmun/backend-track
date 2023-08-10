@@ -5,7 +5,7 @@ namespace MyWebApi.Data;
 
     public class ApiDbContext : DbContext
     {
-        public DbSet<Team> Teams {get;set;}
+      
         public DbSet<Post> Posts {get;set;}
         public DbSet<Comment> Comments {get;set;}
          protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -41,3 +41,11 @@ C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\Npgsql.dll
 C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\tests\obj\project.assets.json
+C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\tests\obj\tests.csproj.nuget.dgspec.json
+C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\Moq.dll
+C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\xunit.abstractions.dll
+C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\xunit.assert.dll
+C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\xunit.core.dll
+C:\Users\user\Documents\MyWebApi\bin\Debug\net7.0\xunit.execution.dotnet.dll

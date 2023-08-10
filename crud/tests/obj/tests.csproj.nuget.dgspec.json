@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\MyWebApi\\MyWebApi.csproj": {}
+    "C:\\Users\\user\\Documents\\MyWebApi\\tests\\tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\MyWebApi\\MyWebApi.csproj": {
+    "C:\\Users\\user\\Documents\\MyWebApi\\tests\\tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\MyWebApi\\MyWebApi.csproj",
-        "projectName": "MyWebApi",
-        "projectPath": "C:\\Users\\user\\Documents\\MyWebApi\\MyWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\MyWebApi\\tests\\tests.csproj",
+        "projectName": "tests",
+        "projectPath": "C:\\Users\\user\\Documents\\MyWebApi\\tests\\tests.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\MyWebApi\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\MyWebApi\\tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,7 +20,6 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,31 +38,29 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[7.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[17.5.0, )"
             },
             "Moq": {
               "target": "Package",
               "version": "[4.20.2, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[3.2.0, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.5.0, )"
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -78,9 +75,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
