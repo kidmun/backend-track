@@ -13,7 +13,8 @@ namespace MyWebApi.Data;
             modelBuilder.Entity<Comment>()
                 .HasOne(c => c.Post)
                 .WithMany(p => p.Comments)
-                .HasForeignKey(c => c.PostId);
+                .HasForeignKey(c => c.PostId)
+                .IsRequired(false);  ;
         }
         public ApiDbContext(DbContextOptions<ApiDbContext> options)
             : base(options)
